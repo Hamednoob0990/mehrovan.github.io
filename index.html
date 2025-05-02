@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-q8+l9TmX3RaSz3HKGBmqP2u5MkgeN7HrfOJBLcTgZsQsbrx8WqqxdA5PuwUV9WIx"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image-png" href="assets/img/sm-logo.png">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <title>مهرروان</title>
+  </head>
+  <body>
+      <!--شروع نوبار-->
+     <nav class="navbar navbar-expand-lg navbar-light shadow-sm navbar-blur fixed-top">
+       <div class="container">
+        <a class="navbar-brand " href="#">
+          <img src="assets/img/pr-logo.png" alt="مهرروان" height="40">
+        </a>
+
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!--در حالت دسکتاپ-->
+        <div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><i class="bi bi-house-door-fill"></i> خانه</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products"><i class="bi "></i> محصولات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services"><i class="bi "></i> خدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><i class="bi"></i> درباره ما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><i class="bi "></i> تماس با ما</a>
+            </li>
+          </ul>
+        </div> 
+        <!-- در حالت موبایل-->
+        <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">منو</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><i class="bi bi-house-door-fill"></i> خانه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products"><i class="bi bi-car-front-fill"></i> محصولات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services"><i class="bi bi-gear-fill"></i> خدمات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"><i class="bi bi-info-circle-fill"></i> درباره ما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"><i class="bi bi-telephone-fill"></i> تماس با ما</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--اینترو ویدیو -->
+    <section class="hero position-relative text-white text-center d-flex align-items-center justify-content-center">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="assets/videos/hero.mp4" type="video/mp4">
+      </video>
+      
+      <div class="hero-content position-absolute z-1">
+        <h1 class="display-4 fw-bold">مهرروان، همراه مطمئن مسیر شما</h1>
+        <p class="lead">با خودروهای باکیفیت و خدماتی که لایق شماست، سفر را متفاوت آغاز کنید</p>
+        <a href="#products" class="btn btn-light mt-4 px-4 py-2">مشاهده محصولات</a>
+      </div>
+    </section>
+    
+
+    <section id="products" class="container py-5">
+      <h2 class="text-center mb-4 Lalezar">محصولات</h2>
+      <div class="row">
+    
+        <!-- BMW -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex">
+          <div class="card shadow h-100 zoom">
+            <div class="image-container position-relative overflow-hidden">
+              <img src="../car web/assets/img/firstcard.jpeg" class="card-img-top zoom-img" alt="BMW">
+              <div class="overlay-text">اطلاعات</div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">BMW</h5>
+              <p class="card-text fw-bold text-center">زیبایی در سکوت، قدرت در حرکت.</p>
+              <p class="card-text">بی‌ام‌و ترکیبی‌ست از ظرافت آلمانی و روح ماجراجویی؛ انتخاب کسانی که کیفیت را در دل سکوت و ظرافت می‌جویند.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Mercedes -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex">
+          <div class="card shadow h-100 zoom">
+            <div class="image-container position-relative overflow-hidden">
+              <img src="../car web/assets/img/benz.png" class="card-img-top zoom-img" alt="Mercedes">
+              <div class="overlay-text">اطلاعات</div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">Mercedes-Benz</h5>
+              <p class="card-text fw-bold text-center">وقار در حرکت، کلاس در انتخاب.</p>
+              <p class="card-text">مرسدس انتخابی برای کسانی‌ست که تنها نمی‌رانند، بلکه تجربه می‌کنند.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Porsche -->
+        <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex">
+          <div class="card shadow h-100 zoom">
+            <div class="image-container position-relative overflow-hidden">
+              <img src="assets/img/porche.png" class="card-img-top zoom-img" alt="Porsche">
+              <div class="overlay-text">اطلاعات</div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-center">Porsche</h5>
+              <p class="card-text fw-bold text-center">سرعتی که نجابت دارد.</p>
+              <p class="card-text">پورشه نماد لذت ناب رانندگی است؛ برای کسانی که در عین سرعت، به وقار هم وفادارند.</p>
+            </div>
+          </div>
+        </div>
+    
+       <!-- Audi -->
+    <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex">
+      <div class="card shadow h-100 zoom">
+        <div class="image-container position-relative overflow-hidden">
+          <img src="../car web/assets/img/audi.png" class="card-img-top zoom-img" alt="Audi">
+          <div class="overlay-text">اطلاعات</div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center">Audi</h5>
+          <p class="card-text fw-bold text-center">خطی از آینده، ردپایی از اصالت.</p>
+          <p class="card-text">آئودی ترکیبی‌ست از طراحی مینیمال و نبوغ مهندسی. خودرویی برای آنان که آینده را امروز می‌رانند.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dodge Challenger -->
+    <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex">
+      <div class="card shadow h-100 zoom">
+        <div class="image-container position-relative overflow-hidden">
+          <img src="../car web/assets/img/doge.png" class="card-img-top zoom-img" alt="Dodge Challenger">
+          <div class="overlay-text">اطلاعات</div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center">Dodge Challenger</h5>
+          <p class="card-text fw-bold text-center">هیولا بیدار شده.</p>
+          <p class="card-text">دوج چلنجر با ظاهر خشمگین و صدایی که زمین را به لرزه می‌اندازد، انتخابی‌ست برای عاشقان رانندگی خالص و بی‌پرده.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Volvo -->
+    <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex">
+      <div class="card shadow h-100 zoom">
+        <div class="image-container position-relative overflow-hidden">
+          <img src="../car web/assets/img/volvo.png" class="card-img-top zoom-img" alt="Volvo">
+          <div class="overlay-text">اطلاعات</div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold text-center">Volvo</h5>
+          <p class="card-text fw-bold text-center">امنیت، آرامش، وقار.</p>
+          <p class="card-text">ولوو فقط یک خودرو نیست، پناهگاهی‌ست برای مسیر. ترکیبی از سادگی اسکاندیناویایی و اعتماد مطلق.</p>
+        </div>
+      </div>
+    </div>
+    
+      </div>
+    </section>
+    
+
+  
+      
+     <section id="about" class="container py-5">
+      <h2 class="text-center mb-4 Lalezar">درباره مهرروان</h2>
+      <p class="text-center">
+        شرکت مهرروان با هدف ارائه خودروهای باکیفیت و خدمات پس از فروش حرفه‌ای تأسیس شده است.  
+        ماموریت ما ایجاد تجربه‌ای لذت‌بخش از رانندگی با اطمینان و کیفیت است.
+      </p>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
