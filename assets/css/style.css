@@ -98,3 +98,58 @@ body{
   opacity: 1;
 }
 
+
+.intro-section {
+  background: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
+              url('../img/mehrIntro.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 0;
+  position: relative;
+}
+
+.intro-content {
+  max-width: 550px;
+  margin-left: auto;
+  padding-right: 3rem;
+}
+
+.car-image {
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.car-image img {
+  max-width: 700px;
+  width: 100%;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
+}
+
+
+.intro-section h2 {
+  font-family: 'Lalezar', cursive;
+  font-size: 2.5rem;
+}
+.intro-section p {
+  font-size: 1.1rem;
+  line-height: 2.2;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.car-img-custom {
+  max-width: 400px;
+  width: 100%;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+}
+
+
